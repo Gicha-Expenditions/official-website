@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gicha Nature Expenditions</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <img src="Images/logoi.jpg" alt="" class="logo-image"> <a href="#" class="logo">Gicha Nature <span> Expenditions</span></a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <button class="btn"><a href="#contact">Contact Us</a></button>
+  </header>
+
+  <section class="welcome" id="welcome">
+       <center> <div class="welcome-msg1"><div>Welcome to our website! <span> We're thrilled to have you here. </span>
+    </div>
+    <div> Explore the Wild, Embrace the Journey. <br></div>
+    </div></center>
+<div class="explorer"><button><a href="#home">Proceed To Portfolio</a></button></div>
+    <div class="welcome-msg2">Explore, discover, and enjoy all that  <span>we have to offer.</span></div>
+    <div class="welcome-msg3"><center><span>Thank you for visiting!</span></center></div>
+
+  </section>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello World, It's </h3>
+        <h1>Gicha Nature Expenditions</h1>
+        <h3>dedicated to providing immersive eco-tourism experiences, offering sustainable adventure
+             travel that <span class="multiple-text">connects people with nature.</span></h3>
+        <p>Welcome to Gicha Nature Expeditions, where we believe that the world’s most 
+            stunning landscapes are meant to be experienced up close. Our expertly guided expeditions
+             take you off the beaten path, offering authentic adventures that allow you to connect 
+             with nature in a deeper, more meaningful way. Whether you're trekking through rugged 
+             mountains, exploring dense jungles, or immersing yourself in local cultures, each journey 
+             is designed to inspire and challenge. We are committed to sustainable travel, ensuring that 
+             every experience not only enriches your life but also helps protect the natural world. Join us to 
+             explore, discover,
+             and embrace the wild. Your next great adventure starts here! <br>
+            <span class="mine">Explore the wild, Embrace the Journey.</span>
+        </p>
+             <div class="social-media">
+<a href="https://www.facebook.com/profile.php?id=100083338934216"><i class="bx bxl-facebook"></i></a>
+<a href="https://www.instagram.com/alexkariuki11?igsh=YzljYTk1ODg3Zg=="><i class="bx bxl-instagram-alt"></i></a>
+<a href="https://wa.me/+254721924010"> <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAi9JREFUSEvN1UnITnEUBvDfx8JMdoREiChThg1JmVI2hqIUiTInZcGGYiE2xpQSxUKxUJJZSCFiY0ghsjKkKGS+R+f7ent77/vafPWd1e3e8z/P/zznOc9t0srR1Mr1tQmAsViAyRiCX7iFO7iAB/VYqNdBPxzGDHzOQk/wDaMxEj2wG1vwvRZQGUDc9Bo6YAOO40+NAmsT4AXm4VF1Ti2AXriXVEzF8wZCGFF0dAbtMBxfKvNrAZzDeIzDy4KmPuiGp3WAAuQ+jmBlPYBJuIFlmTwsu3mHASU0NdfbjB2YjkvNL6s72Iel6FkM7kfR7ibszOQY9sU6XXRKMQRdc8sAHuI15mTCKhzI5wA+2mAecT5iVBnAm4L/mMGKTOidc/iIkO3PBgCHsAjdywCe5bAWVhQKKe7FQaxpMIegcz06lgGcT/4nVN30ZG5z8BuAnZOuUM2pomh0GBF5YzC4DGB7DrYv3laAtC+A92A1PvHPw0K6EbvyTOzBe5zG8jKAgblY24qErTX4npZ0Dc1vvzEzZRncn0hraVFbrUULJYShhcmVRdAQg3yVIuiPuwivmlJ5qBqgS/IZ+7CxgWKaP0fxywkY2x8yb4lqgNk4W9C0GNF+bOXtYouP4WsVYMxpCdalssK3Gprd/hxkc604MCit+HrSEa4aXjUxk27m9tc0xeoOwkMi8SquFJL8UNhx1+Jm84sfzCyEfMNGHqdnhUSD+9JoE7/M/5x17bRW7+Av0jpxGTt6Zt0AAAAASUVORK5CYII="/></i></a>
+<a href="https://t.me/+254721924010"> <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAblJREFUSEvV1TtoVEEYxfFflKCFBhEhhQTxAakEBUUI0YiFdoKigkUSHynEVsEU6RIiBOxCxEItVXygoIWVIBLBThBMEwgqpAiIYGEQfNwPZuVy2bsvs4hT7e7MnP835zsz26HNo6PN+v5LwD5sw51wZ6VOsAGDOIdd+IquvwWswhGcwTF05vr5AVtaBWzHeQxhcxJdxM/c94c40QxgHU4mC/pzlf7CDJ4mz8OqGFcw1QhgP84m8YDkx/sE3IQHWJObPIQXZYA49nAS3lHlnnzPxK5iEqdxC9GPygirophvRcAeTOBwjXS9Tv5H9WMYr1LAO+ys/J6P6VzmY2/JzY7YjeJ6mp/GxZK1NzFSDbA6820g+R2x606LnuFCtulTiuJdHK/xxMTaG9UA+T3h6UFEKh6lifXZJXqMaGCtERftbT1AUSCa9hK764gvpwb/aBawF2/qiMf0K0S0/4xG36JI1vO06zM2lsCu4XIrgFO4h0jaARxFJGltARTr7rcCiGRcQh+WkkBk/Qm25gTj80IrgBD7iC+FiuNJvp1iGzHuKVrXaA/q9Tf+C+azV2C2XYDSAlbqBP8O8BtHxEAZRG4wGQAAAABJRU5ErkJggg=="/></i></a>
+             </div>
+             
+    </div>
+    <div class="home-img">
+        <img src="Images/4.jpg" alt="">
+    </div>
+</section>
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="Images/55.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Us</span></h2>
+        <h3>Eco-tourism Company</h3>
+        <p>
+            Gicha Nature Expeditions is a forward-thinking eco-tourism company committed to 
+            creating unforgettable outdoor experiences that foster a deep connection with nature. We specialize in curated, sustainable adventures that highlight the beauty and biodiversity 
+            of the natural world, while prioritizing environmental conservation and responsible travel practices.
+             Our expert guides lead guests through pristine landscapes, offering unique opportunities to explore and
+              learn about the ecosystems we visit. With a focus on authenticity and sustainability, Gicha Nature 
+              Expeditions aims to inspire travellers to appreciate and protect the natural world for future generations.
+        </p>
+        <p>Gicha Nature Expeditions offers expertly guided, sustainable travel experiences that immerse travellers in the 
+            beauty of nature while promoting conservation and responsible tourism! 
+        </p>
+              <a href="#portfolio" class="btn">Latest Expenditions</a>
+    </div>
+</section>
+<section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+
+    <div class="services-container">
+        <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Guided eco-tours</h3>
+        <p>
+            Our guided eco-tours are designed to immerse travelers in 
+            the natural world while prioritizing environmental education and 
+            sustainability. Led by experienced, knowledgeable guides, these tours 
+            provide in-depth insights into the ecosystems we explore, from lush forests and mountain
+             ranges to pristine wetlands and coastal regions. Guests can learn about local flora, fauna, 
+             and conservation efforts, all while participating in responsible, low-impact travel. Whether
+              it’s a leisurely walk or a more challenging trek, our eco-tours are tailored to create meaningful
+             connections between people and nature, fostering a deeper appreciation for the planet’s biodiversity
+        </p>
+              <a href="#home" class="btn">Read More</a>
+            </div>
+
+
+            <div class="services-box">
+                <i class="bx bxs-paint"></i>
+                <h3>Hike & Trekking Adventures</h3>
+                <p>
+                    For those seeking more active outdoor experiences, our hiking and trekking adventures offer
+                     a chance to explore some of the most breathtaking landscapes in the world. From mountain 
+                     trails and rugged terrain to remote valleys and coastal paths, these guided expeditions are
+                      suitable for all levels of fitness and experience. Along the way, trekkers will encounter stunning vistas, diverse ecosystems, and unique wildlife, all while benefiting from the expertise of our experienced guides. Our trekking adventures emphasize safety, environmental stewardship, and the joy of exploring remote, pristine areas while encouraging participants to challenge themselves and enjoy the physical and mental rewards of outdoor exploration.
+                </p>
+                      <a href="#portfolio" class="btn">Read More</a>
+                    </div>
+
+
+                    <div class="services-box">
+                        <i class="bx bx-bar-chart-alt"></i>
+                        <h3>Wildlife Safaris</h3>
+                        <p>
+                            Gicha Nature Expeditions offers thrilling wildlife safaris
+                             that give travelers the chance to witness animals in their natural habitats 
+                             while supporting local conservation initiatives. Whether exploring savannahs, 
+                             jungles, or wetlands, our safaris are carefully designed to minimize human impact 
+                             while maximizing wildlife observation opportunities. With expert guides who are trained in 
+                             ethical wildlife viewing, guests are educated on animal behavior, conservation challenges,
+                              and the importance of preserving biodiversity. Our safaris offer a unique opportunity 
+                              to connect with wildlife in a respectful, immersive
+                             way, encouraging a greater sense of responsibility toward species protection and habitat preservation.
+        </p>
+                              <a href="#about" class="btn">Read More</a>
+                            </div>
+    </div>
+</section>
+
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/40.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Customizable nature expedition</h4>
+                <p>Tailored travel plans based on the client's interests and needs</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/20.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Guided wilderness tours</h4>
+                    <p>Expert-led exploration of remote or wild areas.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/44.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Multi-day hiking expeditions</h4>
+                        <p> Extended hiking trips through natural landscapes, often requiring overnight stays.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/1.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Trekking trips</h4>
+                <p> Challenging or scenic treks in mountains, deserts, or forests.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/24.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Wildlife safari tours</h4>
+                    <p>Guided tours focused on spotting and learning about animals in their natural habitats.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/3.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Birdwatching expeditions</h4>
+                        <p> Tours dedicated to spotting and studying birds in various environments.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/4.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Photography-focused nature tours</h4>
+                <p>Guided tours with a focus on capturing wildlife and landscapes through photography.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Cultural heritage tours </h4>
+                    <p>Exploring the natural world alongside local indigenous cultures and traditions.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/6.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Customized family-friendly nature vacations</h4>
+                        <p>Adventure trips designed for families with varying age groups and abilities.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/7.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Solo adventure planning</h4>
+                <p>Tailored expeditions designed for individuals seeking solo outdoor experiences.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/8.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Small group expeditions</h4>
+                    <p> Intimate nature experiences for small groups, often with a focus on personal attention.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/9.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Corporate team-building expeditions</h4>
+                        <p>Nature-based challenges and experiences to strengthen teamwork and leadership.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/10.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Educational nature programs</h4>
+                <p>Learning-based outdoor programs for students, emphasizing ecology and conservation.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Geology or ecotourism tours</h4>
+                    <p> Expeditions exploring natural landscapes from a geological or environmental perspective.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/12.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Volcano trekking</h4>
+                        <p>Exploring active or dormant volcanoes, often requiring specialized guides and safety measures.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/13.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Glacier trekking</h4>
+                <p>Hiking on glaciers, learning about ice formations and climate change.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/14.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Desert exploration expeditions</h4>
+                    <p> Discovering unique desert ecosystems, flora, and fauna.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/15.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Caving or spelunking adventures</h4>
+                        <p>Exploring underground cave systems and geological formations.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/16.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Adventure hiking with a focus on survival skills</h4>
+                <p> Hiking trips that also teach essential survival techniques in the wild.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/17.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Historical nature walks</h4>
+                    <p>Tours exploring natural areas with a focus on historical exploration or conservation efforts.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/18.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Wildlife tracking and conservation expeditions</h4>
+                        <p>Learning to track animals and understanding conservation efforts in the field.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/19.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Kayaking and canoeing tours</h4>
+                <p>Water-based adventures in rivers, lakes, or coastal environments.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/21.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Stand-up paddleboarding (SUP) in remote areas</h4>
+                    <p>Paddleboarding on serene, often remote, waters for a peaceful nature experience.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/22.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>White-water rafting</h4>
+                        <p>Thrilling rafting trips through fast-moving, challenging rivers.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/23.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Mountain biking tours</h4>
+                <p> Guided bike rides through scenic or rugged natural terrain.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/11.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Rock climbing expeditions</h4>
+                    <p> Climbing outdoor rock faces with trained guides and safety measures.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/25.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Ziplining and canopy tours</h4>
+                        <p> High-flying excursions through treetops, offering unique perspectives of the forest.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/26.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Horseback riding through nature reserves</h4>
+                <p> Exploring protected natural areas on horseback, offering access to areas hard to reach on foot.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/27.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Winter expeditions</h4>
+                    <p>Adventures in snow and ice, such as snowshoeing, ice climbing, or cross-country skiing.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/28.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Polar expeditions</h4>
+                        <p> Travel to polar regions for unique wildlife viewing and exploration in extreme environments.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/29.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Jungle trekking and exploration</h4>
+                <p> Adventurous hikes through tropical rainforests with local guides.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/30.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Eco-friendly camping and backcountry experiences</h4>
+                    <p>Low-impact camping in wilderness areas, often with minimal environmental footprint.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/31.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Beach and coastal ecological tours</h4>
+                        <p>Guided walks along beaches and coastal ecosystems, learning about marine life and conservation.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/32.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Fishing expeditions in remote locations</h4>
+                <p> Fishing in pristine, remote environments for sport or sustenance.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/33.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Off-grid survival experiences</h4>
+                    <p> Immersive experiences teaching survival skills in remote, off-the-grid locations.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/34.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Nighttime wildlife safaris</h4>
+                        <p> Safaris conducted at night to spot nocturnal animals and observe different behaviors.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/35.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Snowmobiling in natural reserves</h4>
+                <p> Exploring winter landscapes via snowmobile in eco-friendly areas.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/36.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Glacier or ice cave exploration</h4>
+                    <p>Trekking or exploring ice caves and glaciers to study their structure and beauty.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/37.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Conservation volunteering trips</h4>
+                        <p>Volunteering with conservation projects like tree planting or wildlife protection.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/38.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Environmental education workshops</h4>
+                <p> Educational sessions focused on sustainability, conservation, and ecology.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/39.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Wildlife rescue and rehabilitation center visits</h4>
+                    <p> Visiting centers dedicated to rescuing and rehabilitating injured or endangered animals.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/41.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Conservation awareness and nature preservation tours</h4>
+                        <p> Tours that highlight efforts to protect natural areas and wildlife.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/42.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Eco-friendly accommodations </h4>
+                <p>Staying in eco-lodges, glamping sites, or other sustainable accommodations.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/43.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Beach cleanups and environmental activism tours</h4>
+                    <p> Participating in or learning about environmental activism such as coastal cleanups.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/45.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Responsible wildlife interactions</h4>
+                        <p>Tours designed to ensure no harm or disturbance to wildlife and ecosystems.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/46.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Marine conservation diving trips</h4>
+                <p> Scuba diving excursions aimed at studying marine life and supporting conservation efforts.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/48.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Reforestation tours and sustainable farming experiences</h4>
+                    <p>Visiting and contributing to reforestation and sustainable farming projects.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/49.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Permaculture and organic farm tours</h4>
+                        <p>Exploring sustainable farming practices and eco-friendly food production.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/50.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Nature-based wellness retreats</h4>
+                <p>Retreats that integrate nature with wellness activities like yoga and meditation.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/51.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Zero-waste expeditions</h4>
+                    <p>Travel experiences designed with minimal environmental impact, focusing on waste reduction.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/52.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Wilderness first aid training</h4>
+                        <p> Courses teaching essential first aid skills for remote and wilderness environments.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/53.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Emergency evacuation services for remote expeditions</h4>
+                <p>Providing support for evacuations in case of accidents or health emergencies during expeditions.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/54.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Transportation arrangements </h4>
+                    <p> Organizing travel logistics, including private transportation for remote or hard-to-reach destinations.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/55.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Supply provisioning</h4>
+                        <p> Ensuring travelers have the necessary gear, food, water, and equipment for their trips.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/40.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Group insurance for adventure travel</h4>
+                <p> Offering insurance policies that cover the risks associated with adventure travel.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/20.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Equipment rental</h4>
+                    <p>Renting out necessary outdoor gear, such as tents, bikes, or climbing equipment.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/44.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Packing assistance and gear recommendations</h4>
+                        <p>Helping clients pack and choose appropriate gear for their specific expedition.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/40.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Special needs or accessible expedition planning</h4>
+                <p> Customizing expeditions to accommodate travelers with physical disabilities or other special needs.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+            <div class="portfolio-box">
+                <img src="Images/20.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather forecasting and expedition risk managemen</h4>
+                    <p>Providing real-time weather updates and risk assessments to ensure safe expeditions.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+         
+                <div class="portfolio-box">
+                    <img src="Images/44.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Travel insurance consultation</h4>
+                        <p>Offering advice on travel insurance options to protect against potential risks during nature-based trips.</p>
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+     </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <p><center><h3 class="num">=</h3></center></p>
+    <form action="mailto:ndeshaly@gmail.com" method="post" enctype="text/plain" href="https://wa.me/+254721924010">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Phone Number">
+            <input type="email" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn" href="https://wa.me/+254721924010">
+    </form>
+</section>
+<footer class="footer">
+    <center>  <div class="footer-text">
+        <p>Copyright &copy; 2024 by Alexander Nderitu Kariuki | All Rights Reserved.</p>
+        <p>Web Created & Designed by <a href="https://wa.me/+254758299928">AlphaCode Solutions</a></p>
+    </div></center>
+    <div class="footer-icontop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+</footer>
+</body>
+</html>
+
