@@ -782,14 +782,15 @@
     <div class="footer-icontop">
         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
     </div>
+     <div id="thankYouMessage">
+        <p>Thank you for contacting <strong>Gicha Nature Expenditions</strong>. Feel free to reach out if you need any assistance or have any questions – we’re here to help!</p>
+    </div>
+    
 </footer>
-    <script>
-          function fillMessage() {
-            // Define the message you want to add to the textarea
-            var message = "Thank you for contacting Gicha Nature Expenditions. Feel free to reach out if you need any assistance or have any questions – we’re here to help!";
-            
-            // Get the textarea element by its ID and set its value to the message
-            document.getElementById('messageBox').value = message;
+ <script>
+        function showThankYouMessage() {
+            // Display the thank you message when the button is clicked
+            document.getElementById("thankYouMessage").style.display = "block";
         }
     </script>
 </body>
