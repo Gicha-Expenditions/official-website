@@ -772,8 +772,8 @@
             <input type="text" placeholder="Email Subject">
         </div>
         <textarea name="" id="messageBox" cols="30" rows="10" placeholder="Your Message"></textarea>
-         <input type="submit" value="Send Message" class="btn" href="https://wa.me/+254721924010" href="sms:+25472192401" >
-    </form>
+         <button onclick="sendMessage()"><input type="submit" value="Send Message" class="btn"  onclick="sendMessage()">
+   </button> </form>
 </section>
 <footer class="footer">
     <center>  <div class="footer-text">
@@ -786,6 +786,16 @@
 
     
 </footer>
+ <script>
+    function sendMessage() {
+      // Open email client with pre-filled message
+      window.location.href = "mailto:florencemwangi3020@gmail.com?subject=Message&body=Hello%20there!%20Thanks%20 for Contacting%20a%20Gicha Nature%20Expenditions.";
+
+      // Open SMS app with pre-filled phone number (change to your phone number)
+      window.location.href = "sms:+254721924010?body=Hello%20there!%20Thanks for%20 Contacting%20a%20Gicha nature%20Expenditions.";
+    }
+  </script>
+
 </body>
 </html>
 
